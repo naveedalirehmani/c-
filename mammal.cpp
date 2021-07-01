@@ -26,6 +26,8 @@ int main (){
     BlueWhale blueWhaleObject;
     mammalObject.mammalMethod();
     marineAnimalObject.marineAnimalMethod();
+    blueWhaleObject.mammalMethod();
+    blueWhaleObject.marineAnimalMethod();
     blueWhaleObject.blueWhaleMethod();
     system("pause");
     return 0;
